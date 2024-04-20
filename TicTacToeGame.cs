@@ -197,6 +197,8 @@ namespace TicTacToeGame
             Console.Clear();
         }
 
+        // if true is pass in, we have a winner
+        // if false is pass in, we have a draw
         private void EndGame(bool hasWinner)
         {
             Console.Clear();
